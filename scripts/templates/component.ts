@@ -19,6 +19,6 @@ export const ${config.componentName} = () => {
   \`;
 };
 
-customElements.define('${config.elementPrefix}-${config.elementName.toLowerCase()}', component(${config.componentName}, { useShadowDOM: ${config.shadowDOM }));
+customElements.define('${config.elementPrefix}-${config.elementName.toLowerCase()}', component(${config.componentName}, { useShadowDOM: ${config.shadowDOM}));
 `;
 };
