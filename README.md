@@ -12,4 +12,4 @@
 
 Initially this project will act as a playground for a monorepo of web platform and framework agnostic UI components and utilities. The intention isn't for this to turn into anything official but if it takes shape into something solid then that would be a side effect to its current purpose.
 
-The intention is kick it off using both [node](https://nodejs.org/en/) and [deno](https://deno.land/) while eventually moving the monorepo to a completely deno run project.
+The intention is to kick the project off using both [node](https://nodejs.org/en/) and [deno](https://deno.land/) while gradually transitioning the project completely to deno (scripts, tools, package handling etc)
