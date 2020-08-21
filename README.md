@@ -1,6 +1,6 @@
 <h1 align="center">:smiling_imp: Panthor</h1>
 
-<p align="center">Monorepo of web components and utilities</p>
+<p align="center">Web components and utilities</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
