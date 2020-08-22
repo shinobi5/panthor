@@ -14,4 +14,4 @@ Initially this project will act as a playground for a repo of web platform and f
 
 The intention is to kick the project off using both [node](https://nodejs.org/en/) and [deno](https://deno.land/) while gradually transitioning the project completely to deno (scripts, tools, package handling etc).
 
-The main use case for node at the moment is for publishing the packages to npm and utilising workspaces in [yarn](https://yarnpkg.com/) and the useful monorepo features [lerna](https://github.com/lerna/lerna) provides (only available on node).
+The main use case for node at the moment is for publishing packages to npm and utilising node based monorepo tools like [yarn workspaces](https://yarnpkg.com/features/workspaces) and [lerna](https://github.com/lerna/lerna).
