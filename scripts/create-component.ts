@@ -29,9 +29,9 @@ function createComponent(answers: any) {
   const encoder = new TextEncoder();
   const processedName = processHyphen(answers.componentName);
 
-  Deno.mkdirSync(`${projectRoot}/src/js/components/${answers.componentName}`, { recursive: true });
+  Deno.mkdirSync(`${projectRoot}/packages/components/${answers.componentName}`, { recursive: true });
   Deno.writeFileSync(
-    `${projectRoot}/src/js/components/${answers.componentName}/${answers.componentName}.js`,
+    `${projectRoot}/packages/components/${answers.componentName}/${answers.componentName}.js`,
     encoder.encode(componentTemplate({
       componentName: answers.componentName,
       elementName: processedName,
