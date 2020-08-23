@@ -1,9 +1,10 @@
 import { component, html } from 'https://cdn.skypack.dev/haunted';
 
 /**
- * This is the first component which will initially serve as a test component to play 
- * around with approaches to building a web component with tests and a React wrapper.
- * It'll also be used to test accessibility, SSR and IE11 support with haunted.
+ * This is the first component which will initially serve as a test component to refine an approach
+ * to building web components (with tests and React wrappers included).
+ * It'll be used to test accessibility and SSR/IE11 support for haunted (https://github.com/matthewp/haunted) 
+ * web components.
  */
 export const button = () => {
   return html`
