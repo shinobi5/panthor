@@ -12,7 +12,7 @@ export const ${config.componentName} = () => {
   return html\`
     <style>
       :host {
-        display: block;
+        display: inline-block;
       }
     </style>
     <slot></slot>
