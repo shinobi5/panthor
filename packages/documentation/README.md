@@ -1,6 +1,6 @@
-<h1 align="center">:smiling_imp: Components</h1>
+<h1 align="center">:smiling_imp: Documentation</h1>
 
-<p align="center">Web component library</p>
+<p align="center">Panthor web components and utilities documentation website</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
