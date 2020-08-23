@@ -18,4 +18,4 @@ export const button = () => {
   `;
 };
 
-customElements.define('ptr-button', component(button, { useShadowDOM: true));
+customElements.define('pt-button', component(button, { useShadowDOM: true));
